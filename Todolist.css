@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #3498db, #2ecc71);
+}
+h1 {
+    color: #fff;
+    font-size: 48px;
+    font:bold;
+    margin-bottom: 20px;
+    letter-spacing: 2px; /* Unique styling for letter spacing */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow */
+    transition: color 0.3s ease, text-shadow 0.3s ease; /* Advanced transitions */
+}
+#input {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#list-container {
+    list-style: none;
+    padding: 0;
+    background: linear-gradient(to bottom right, #d3a5a5, #f0f0f0);
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    width: 300px; /* Adjust the width as needed */
+    transition: background-color 0.3s ease;
+}
+
+li button {
+    background-color: #ff5c5c;
+    color: #fff;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+li:hover {
+    background-color: #f0f0f0;
+}
+
+li button:hover {
+    background-color: #d9534f;
+}
+#addi button {
+    background-color: #5cb85c;
+    color: #fff;
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#addi button:hover {
+    background-color: #4cae4c;
+}
